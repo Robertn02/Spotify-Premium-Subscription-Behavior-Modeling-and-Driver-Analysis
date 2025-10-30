@@ -1,13 +1,11 @@
-# Spotify-Premium-Subscription-Behavior-Modeling-and-Driver-Analysis
-
 # Spotify Premium Adoption Modeling Using Logistic Regression & Behavioral EDA
 
 This project investigates user-behavior drivers behind Spotify Premium adoption, with a focus on behavioral variables such as age segments, listening device types, and podcast satisfaction metrics. The analysis combines exploratory data analysis (EDA) and logistic regression to identify statistically meaningful predictors of subscription willingness.
 
-## 🎯 Objective
+## Objective
 Identify the most influential user-level factors associated with intention to upgrade from free to Premium on Spotify.
 
-## 📁 Data Source
+## Data Source
 Survey-based Spotify behavior dataset (Kaggle).  
 Contains demographic, usage, preference, and satisfaction fields.
 
@@ -23,7 +21,7 @@ Contains demographic, usage, preference, and satisfaction fields.
 
 ---
 
-## 🧠 Methodology
+## Methodology
 ✔ Exploratory Data Analysis (EDA)  
 ✔ Dummy variable encoding for categorical features  
 ✔ Logistic Regression (one-variable models per hypothesis)  
@@ -34,7 +32,7 @@ Target variable is binary (subscribe or not), and logistic regression ensures pr
 
 ---
 
-## 🧪 Models Tested
+## Models Tested
 
 | Hypothesis | Feature | Result |
 |-----------|--------|-------|
@@ -48,7 +46,7 @@ Age & device have negligible predictive value in this dataset.
 
 ---
 
-## 📊 Insights
+## Insights
 - Younger & mid-age segments (12-35) show stronger premium intent
 - Short-form podcast listeners and low-frequency podcast users exhibited higher upgrade interest
 - Signals suggest users prefer **high-quality, concise content** and may pay for it
