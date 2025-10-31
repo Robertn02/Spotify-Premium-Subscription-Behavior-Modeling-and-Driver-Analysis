@@ -38,7 +38,7 @@ Target variable is binary (subscribe or not), and logistic regression ensures pr
 |-----------|--------|-------|
 | Age influences willingness to subscribe | age_group | Low predictive power (Pseudo R² ≈ 0.01) |
 | Device usage influences subscription | device type | Low predictive power (Pseudo R² < 0.01) |
-| Podcast variety satisfaction influences subscription | pod satisfaction | **Moderate predictive power (Pseudo R² ≈ 0.178)** ✅ |
+| Podcast variety satisfaction influences subscription | pod satisfaction | **Moderate predictive power (Pseudo R² ≈ 0.178)** |
 
 ### Key Result
 Users with **higher podcast satisfaction** are significantly more likely to consider Spotify Premium.  
